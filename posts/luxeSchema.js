@@ -32,6 +32,10 @@ const luxeSchema = new mongoose.Schema({
         type: Number,
         required: true,
     },
+    currency: {
+        type: String,
+        required: true,
+    },
     link: {
         type: String
     },
